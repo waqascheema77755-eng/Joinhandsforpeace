@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Join Hands For Peace</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <img src="assets/JHFP.jpg" alt="Join Hands For Peace" class="logo">
+    <h1>Join Hands For Peace</h1>
+    <div class="visitor-count">👁 Live Visitors: <span id="liveVisitors">...</span></div>
+    <button id="joinBtn">🤝 Join the Peace Movement (<span id="memberCount">0</span>)</button>
+  </header>
+
+  <section class="videos">
+    <h2>Peace Videos</h2>
+    <div class="video-grid">
+      <iframe src="https://www.youtube.com/embed/dSwbmpt_WFU" allowfullscreen></iframe><iframe src="https://www.youtube.com/embed/KZ9SfJ0t1Ak" allowfullscreen></iframe><iframe src="https://www.youtube.com/embed/eugsbkNP6aw" allowfullscreen></iframe><iframe src="https://www.youtube.com/embed/TtS25ccfAwg" allowfullscreen></iframe><iframe src="https://www.youtube.com/embed/w6iHObP_RoA" allowfullscreen></iframe><iframe src="https://www.youtube.com/embed/SGfR_g6CUYc" allowfullscreen></iframe><iframe src="https://www.youtube.com/embed/OiYP4eTEy9Q" allowfullscreen></iframe><iframe src="https://www.youtube.com/embed/ivEQ9iS8hVc" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section class="comments">
+    <h2>Visitor Comments</h2>
+    <form id="commentForm">
+      <input type="text" id="visitorName" placeholder="Your name" required>
+      <textarea id="visitorComment" placeholder="Share your message of peace..." required></textarea>
+      <button type="submit">Post Comment</button>
+    </form>
+    <ul id="commentList"></ul>
+  </section>
+
+  <section class="contact" id="contactSection">
+    <h2>Contact Us (Subscribers Only)</h2>
+    <form id="contactForm">
+      <input type="password" placeholder="Enter Subscriber Password" id="subscriberPassword" required>
+      <div id="contactFields" style="display:none;">
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </div>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Join Hands for Peace</p>
+  </footer>
+</body>
+</html>
